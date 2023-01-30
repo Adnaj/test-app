@@ -41,7 +41,7 @@ const Home = () => {
                             <li className='w-[140px] h-[60px] flex justify-between items-center  bg-[#565f69]'>
                                 <a
                                     className='flex justify-between items-center w-full text-gray-300'
-                                    href='/' download={true}
+                                    href='/resume.pdf' download={true}
                                 >
                                     Resume <BsFillPersonLinesFill size={30} />
                                 </a>
