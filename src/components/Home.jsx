@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi'
+import { FaGithub} from 'react-icons/fa';
+
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { Link } from 'react-scroll';
 
@@ -10,11 +10,11 @@ const Home = () => {
         <div name='home' className='w-full h-screen bg-[#0a192f]'>
 
             {/* container */}
-            <div className='max-w-[900px] mx-auto px-8 flex flex-col justify-center h-full'>
+            <div className='max-w-[900px] mx-auto sm:px-8 px-4 flex flex-col justify-center h-full'>
                 <p className='text-pink-600'>Hi my name is</p>
-                <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Muhammed Adnaj</h1>
-                <h2 className='text-4xl sm:text-5xl font-bold text-[#8892b0]'>I'am a Python Full stack developer.</h2>
-                <p className='text-[#8892b0] py-4 max-w-[700px]' >Passionate and self-taught Python full stack developer capable of learning and adopting the latest technologies.
+                <h1 className='text-3xl sm:text-7xl font-bold text-[#ccd6f6]'>Muhammed Adnaj</h1>
+                <h2 className='text-2xl sm:text-5xl font-bold text-[#8892b0]'>I'am a Python Full stack developer.</h2>
+                <p className='text-[#8892b0] sm:text-[1rem] text-[12px]  py-4 max-w-[700px]' >Passionate and self-taught Python full stack developer capable of learning and adopting the latest technologies.
                     A solid mind to commit to tasks and responsibility to track and review progress until the committed job is completed. Possess a solid commitment to the team environment
                     and enjoy working as a team member and independently.</p>
 
@@ -27,7 +27,7 @@ const Home = () => {
 
 
                     {/* Social icons */}
-                    <div className='flex lg:hidden  mt-10  top-[35%] '>
+                    <div className='flex lg:hidden  mt-5 top-[35%] '>
                         <ul className='flex space-x-4'>
                             <li className='w-[60px] h-[60px] flex justify-between items-center  bg-[#333333]'>
                                 <a
@@ -38,7 +38,7 @@ const Home = () => {
                                     <FaGithub size={30} />
                                 </a>
                             </li>
-                            <li className='w-[160px] h-[60px] flex justify-between items-center  bg-[#565f69]'>
+                            <li className='w-[140px] h-[60px] flex justify-between items-center  bg-[#565f69]'>
                                 <a
                                     className='flex justify-between items-center w-full text-gray-300'
                                     href='/' download={true}
